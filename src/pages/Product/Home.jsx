@@ -77,7 +77,7 @@ const Home = () => {
       <Loader loading={isLoading} />
       <TextInput
         style={styles.searchInput}
-        placeholder="Search products..."
+        placeholder="Search products... 🔍"
         placeholderTextColor="#888"
         value={searchQuery}
         onChangeText={handleSearch}
